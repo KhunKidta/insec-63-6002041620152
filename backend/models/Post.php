@@ -1,7 +1,7 @@
 <?php
-    namespace backend\models;
-    class Post extends \common\models\Post {
+namespace backend\models;
+class Post extends \common\models\Post {
 
 
-    }
+}
 
