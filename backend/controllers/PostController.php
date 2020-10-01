@@ -54,7 +54,10 @@ class PostController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+        }else{
+            echo" Please login";
         }
+        
     }
 
     /**
@@ -69,6 +72,8 @@ class PostController extends Controller
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
+    }else{
+        echo" Please login";
     }
 }
     /**
@@ -88,6 +93,8 @@ class PostController extends Controller
         return $this->render('create', [
             'model' => $model,
         ]);
+    }else{
+        echo" Please login";
     }
     }
     /**
@@ -109,6 +116,8 @@ class PostController extends Controller
         return $this->render('update', [
             'model' => $model,
         ]);
+    }else{
+        echo"<h1>Please Login !! </h1>";
     }
     }
     /**
@@ -124,6 +133,9 @@ class PostController extends Controller
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
+    }else{
+        
+        echo'<h1><center>Please Login !!</center></h1>';
     }
     }
     /**
