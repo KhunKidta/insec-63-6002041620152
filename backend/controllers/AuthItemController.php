@@ -3,7 +3,7 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\AuthItem;
+use backend\models\AuthItem;
 use backend\models\AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

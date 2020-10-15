@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\AuthItemChild */
+/* @var $model backend\models\AuthItemChild */
 
 $this->title = $model->parent;
 $this->params['breadcrumbs'][] = ['label' => 'Auth Item Children', 'url' => ['index']];

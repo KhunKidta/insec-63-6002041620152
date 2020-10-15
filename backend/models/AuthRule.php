@@ -5,3 +5,4 @@ class AuthRule extends \common\models\AuthRule {
 
 }
 
+?>

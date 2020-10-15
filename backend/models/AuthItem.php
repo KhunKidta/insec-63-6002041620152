@@ -4,4 +4,4 @@ class AuthItem extends \common\models\AuthItem {
 
 
 }
-
+?>

@@ -5,3 +5,4 @@ class AuthItemChild extends \common\models\AuthItemChild {
 
 }
 
+?>
