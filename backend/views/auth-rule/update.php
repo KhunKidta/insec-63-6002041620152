@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\AuthRule */
+/* @var $model backend\models\AuthRule */
 
 $this->title = 'Update Auth Rule: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Auth Rules', 'url' => ['index']];
