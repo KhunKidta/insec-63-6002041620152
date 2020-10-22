@@ -27,7 +27,7 @@ class m201022_093702_create_item_for_rbac extends Migration
         $auth->add($superAdmin);
 
         //print_r($auth);
-        //return false;
+        return true;
     }
 
     /**
@@ -49,9 +49,11 @@ class m201022_093702_create_item_for_rbac extends Migration
     $superAdmin = $auth->getRole('super-admin');
     if($superAdmin){
         $auth->remove($superAdmin);
+
+        return true;
     }
    // echo "m201022_093657_create_item_for_rbac cannot be reverted.\n";
-    return true;
+    
 
     /*
     // Use up()/down() to run migration code without a transaction.
